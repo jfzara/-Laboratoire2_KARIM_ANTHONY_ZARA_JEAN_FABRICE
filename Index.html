@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programme</title>
+    <title>Index</title>
     <link rel="stylesheet" href="Index.css">
 </head>
 
 <body>
     <!--KARIM_ANTHONY/ZARA_JEAN_FABRICE.-->
 
-    
+    <div class="container_en_haut">
         <header class="en_tete">
+            
             <p class="titre_conference">Nouvelle <br> conférence</p>
             <!--Mettre en majuscules avec la propriété CSS  text-transform: uppercase;-->
-            <p>24-25 Mars 2023 - Montréal, QC</p>
+            
+            <div>
+                <p class="date_conference">24-25 Mars 2023 - Montréal, QC</p>
             <nav>
                 <!--Mettre en majuscules avec la propriété CSS  text-transform: uppercase;-->
                 <ul>
@@ -26,56 +29,60 @@
                     <li class="ancre_header">Inscription</li>
                 </ul>
             </nav>
+           </div>
         </header>
-    
-    <main>
-<div>
-    <h1>Création de sites web à l'aide de HTML et CSS</h1>
+  
+
+
+    <h2 class="creation">Création de sites web à l'aide de HTML et CSS</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
         Eaque temporibus quam molestias aliquam autem consequuntur.</p>
-    <a href="Inscription.html"></a>
-</div>
-<table>
-    <tr>
-        <th style="text-align: center;">Conférenciers</th><!--Mettre en majuscules avec la propriété CSS text-transform: uppercase-->
-        <th style="text-align: center;">Programme</th>
-        <th style="text-align: center;">Venue</th>
-    </tr>
-    <tr>
-        <td>
-            <a href="Conferenciers.html">
-                <img src="/images/conferencier.jpg" alt="conférencier">
-            </a>
-        </td>
-        <td>
-            <a href="Programme.html">
-                <img src="/images/publicconference.jpg" alt="public de conférence" >
-            </a>
-        </td>
-        <td>
-            <a href="Venue.html">
-                <img src="/images/universite.jpg" alt="université de Montréal">
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td>Conférenciers</td>
-        <td>Deux grandes journées</td>
-        <td>Cégep Gérald-Godin</td>
-    </tr>
-    <tr>
-        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-             Ipsam deserunt quos aliquid!
-        </td>
-        <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Nobis quos culpa iusto libero accusamus nisi?
-        </td>
-        <td>Lorem ipsum dolor! Lorem ipsum dolor sit ametel 
-            temporibus impedit suscipit.
-        </td>
-    </tr>
-</table>
-    </main>
+    <a class="cta_inscription" href="Inscription.html">Inscrivez-vous maintenant</a>
+
+    </div>
+
+    <table>
+        <tr>
+            <th style="text-align: center;">Conférenciers</th>
+            <!--Mettre en majuscules avec la propriété CSS text-transform: uppercase-->
+            <th style="text-align: center;">Programme</th>
+            <th style="text-align: center;">Venue</th>
+        </tr>
+        <tr>
+            <td>
+                <a href="Conferenciers.html">
+                    <img src="/images/conferencier.jpg" alt="conférencier">
+                </a>
+            </td>
+            <td>
+                <a href="Programme.html">
+                    <img src="/images/publicconference.jpg" alt="public de conférence">
+                </a>
+            </td>
+            <td>
+                <a href="Venue.html">
+                    <img src="/images/universite.jpg" alt="université de Montréal">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>Conférenciers</td>
+            <td>Deux grandes journées</td>
+            <td>Cégep Gérald-Godin</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Ipsam deserunt quos aliquid!
+            </td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Nobis quos culpa iusto libero accusamus nisi?
+            </td>
+            <td>Lorem ipsum dolor! Lorem ipsum dolor sit ametel
+                temporibus impedit suscipit.
+            </td>
+        </tr>
+    </table>
+
     <footer>
         <i class="fa-thin fa-circle-c"></i>
         <p>Nouvelle conférence </p>
