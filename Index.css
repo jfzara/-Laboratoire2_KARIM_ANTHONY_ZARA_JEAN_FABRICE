@@ -1,0 +1,29 @@
+header,
+footer {
+    background-color: rgb(46, 46, 236);
+    color: white;
+}
+
+.en_tete {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+border: 2px black solid;
+}
+
+nav ul{
+display: flex;
+
+    width: auto;
+}
+
+nav li {
+   margin-inline: 5px;
+    list-style: none;
+}
+
+.titre_conference,
+.ancre_header {
+    text-transform: uppercase;
+}
