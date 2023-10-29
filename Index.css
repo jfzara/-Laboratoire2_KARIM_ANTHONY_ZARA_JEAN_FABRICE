@@ -8,23 +8,33 @@
 .container_en_haut{
     background-color: rgb(46, 46, 236);
     color: white;
-    padding-top: 11vh;
+    padding-top: 1vh;
     padding-bottom: 5vh;
+    padding-left: 1.5vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 17px;
    
 }
+.container_nav{
+display: flex;
+flex-direction: column;
+gap: 3rem;
+}
+
 header{
     display: flex;
     justify-content: space-between;
+
 }
 
 .date_conference{
 color: rgb(61, 231, 243);
 }
-
+nav{
+    text-transform: uppercase;
+}
 .creation{
     color: rgb(61, 231, 243);  
     font-weight: lighter;
@@ -32,9 +42,8 @@ color: rgb(61, 231, 243);
 
 .en_tete {
     display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+   
+    
     
 }
 
