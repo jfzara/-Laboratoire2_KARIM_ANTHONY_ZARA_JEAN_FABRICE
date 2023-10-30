@@ -9,6 +9,7 @@
 }
 body{
     min-width:80vw;
+   
 }
 /*-------------------------------------------HEADER-----------------------------------------------------*/
  
@@ -103,7 +104,7 @@ nav li {
 /*BOUTON INSCRIPTION*/
 
 .cta_inscription {
-    border: 1px white solid;
+    border: 1.5px white solid;
     color: white;
     text-transform: uppercase;
     padding-top: 2.5vh;
@@ -115,7 +116,6 @@ nav li {
     margin-left: auto;
     margin-right: auto;
     margin-top: 7vh;
-    margin-bottom: 3vh;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
@@ -126,7 +126,7 @@ nav li {
     display: flex;
     justify-content: start;
     padding-left: 1vw;
-    color:rgb(111, 111, 170) ;
+    color: gray;
     min-width: 100%;
 }
 th {

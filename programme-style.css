@@ -17,60 +17,98 @@ a {
     color: white;
 }
 
-/* header 1 */
 
+/*-------------------------------------------HEADER-----------------------------------------------------*/
+ 
+
+ 
 header {
-    display: flex;
-    justify-content: space-between;
-    
-    padding-bottom: 60px;
-    padding-top: 20px;
+    background-color: rgb(46, 46, 80);
+    color: white;
     padding-left: 1.5vw;
     padding-right: 1.3vw;
-    background-color: rgb(46, 46, 80);
-}
-
-.container_date_nav {
     display: flex;
     flex-direction: column;
-    padding-top: 19px;
+    
 }
-
-.date {
-    font-size: 1.3rem;
+ 
+.container_nav {
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 8vh;
 }
-
-.header1 nav {
+ 
+ 
+.date_conference {
+    color: rgb(111, 111, 170); 
+    font-size: 1.3rem; 
+}
+ 
+nav {
     text-transform: uppercase;
+    
 }
-
-.header1 nav ul {
+ 
+.en_tete {
+    display: flex;
+}
+ 
+nav ul {
     display: flex;
     width: auto;
+    
 }
-
-.header1 nav li {
+ 
+nav li {
     margin-inline: 5px;
     list-style: none;
+    font-weight: bold;
+   
+   
 }
-
-.header1 li:last-child {
-    margin-right: 0;
-}
-
-.titre_conference {
+ .container_nouvelle_date{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+ }
+.titre_nouvelle, .titre_conference {
     text-transform: uppercase;
-    font-size: 3.2rem;
+    font-size: 3rem;
     margin: 0;
+  
+}
+ 
+.container_creation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 8vh;
+    line-height: 1.5;
+    background-color: rgb(46, 46, 80);
+}
+ 
+.creation {
+    font-size: 2rem;
+    font-weight: 100;
+    width: 70%;
+    text-align: center;
+    color: rgb(111, 111, 170);
+    font-weight: lighter;
+}
+ 
+.creation_texte {
+    text-align: center;
+    font-size: 1.5rem;
     color: white;
 }
-
-.header1 a:hover {
-    color:rgb(237, 218, 68);
+ 
+.container_nav li {
+    font-weight: 400;
 }
+
+
 
 /* changed the color of top right element to gray */
 /* removed the margin on the right end of the list: li:last-child margin-right to 0 */
@@ -79,7 +117,7 @@ header {
 /* header 2 */
 
 .header2 {
-    background-image: linear-gradient(to right, rgb(141, 188, 157), rgb(192, 232, 192));
+    background: linear-gradient( 90deg, rgb(138 241 182) 0%, rgb(246 204 214) 100%);
     text-align: center;
     padding: 30px;
 }
