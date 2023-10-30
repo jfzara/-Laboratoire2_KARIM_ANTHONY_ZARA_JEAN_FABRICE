@@ -1,116 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programme</title>
-    <link rel="stylesheet" href="Programme.css">
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="programme-style.css">
 </head>
-
 <body>
-    <header>
-        <p class="titre_conference">Nouvelle conférence</p><!--Mettre en majuscules avec la propriété CSS  text-transform: uppercase;-->
-        <p>24-25 Mars 2023 - Montréal, QC</p>
-        <nav>
-            <!--Mettre en majuscules avec la propriété CSS  text-transform: uppercase;-->
-            <ul>
-                <li class="ancre_header">Accueil</li>
-                <li class="ancre_header">Conférenciers</li>
-                <li class="ancre_header">Programme</li>
-                <li class="ancre_header">Venue</li>
-                <li class="ancre_header">Inscription</li>
-            </ul>
-        </nav>
+
+
+    <!-- header 1 -->
+
+    <header class="header1">
+        <a href="Acceuil.html" class="titre_conference">Nouvelle<br>conférence</a>
+        <div class="container_date_nav">
+            <p class="date">24-25 Mars 2023 - Montréal, QC</p>
+            <nav>
+                <ul>
+                    <li class="ancre_header"><a href="Accueil.html">Accueil</a></li>
+                    <li class="ancre_header"><a href="Conférenciers.html">Conférenciers</a></li>
+                    <li class="ancre_header"><a href="Programme.html">Programme</a></li>
+                    <li class="ancre_header"><a href="Venue.html">Venue</a></li>
+                    <li class="ancre_header"><a href="Inscription.html">Inscription</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-<table style="border: 2px solid black;" cellspacing="20px">
-    <tr>
-        <th style="width:15vw;">Conférences</td>
-        <td>24 mars 2023</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td style="text-align: right;">8:30 AM</td>
-        <td>Inscription</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td style="text-align: right;">9:00 AM</td>
-        <td>Conférencier 1 
-            Lorem, ipsum dolor sit amet adipisicing elit <br>
-            totam distinctio.</td>
-        <td>Conférencier 2 
-            Lorem, ipsum dolor sit amet adipisicing elit <br>
-            totam distinctio.</td>
-    </tr>
-    <tr>
-        <td style="text-align: right;">12:30</td>
-        <td>Dîner</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td style="text-align: right;">2:00 PM</td>
-        <td>Conférencier 3 
-            Lorem, ipsum dolor sit amet adipisicing elit <br>
-            totam distinctio.</td>
-        <td>Conférencier 1 
-            Lorem, ipsum dolor sit amet adipisicing elit <br>
-            totam distinctio.
-        </td>
-    </tr>
-</table>
-<table style="border: 2px solid black;" cellspacing="20px">
-    <tr>
-        <th  style="width:15vw;">Ateliers</td>
-        <td>25 mars 2023</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td style="text-align: right;">8:30 AM</td>
-        <td>Déjeuner</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td style="text-align: right;">9:00 AM</td>
-        <td>Conférencier 1 
-            Lorem, ipsum dolor sit amet adipisicing elit <br>
-            totam distinctio.</td>
-        <td>Conférencier 2 
-            Lorem, ipsum dolor sit amet adipisicing elit <br>
-            totam distinctio.</td>
-    </tr>
-    <tr>
-        <td style="text-align: right;">12:30</td>
-        <td>Dîner</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td style="text-align: right;">2:00 PM</td>
-        <td>Conférencier 3 
-            Lorem, ipsum dolor sit amet adipisicing elit <br>
-            totam distinctio.</td>
-        <td>Conférencier 1 
-            Lorem, ipsum dolor sit amet adipisicing elit <br>
-            totam distinctio.
-        </td>
-    </tr>
-</table>
-    </main>
+    
+    
+    <!-- header 2 -->
+
+    <div class="header2">
+        <h1>Programme</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+    </div>
+
+    <!-- main -->
+
+    <table>
+        <tr>
+            <td class="table_title"><h2>Conférence</h2></td>
+            <td colspan="2">24 mars 2023</td>
+        </tr>
+        <tr>
+            <td>8:30 AM</td>
+            <td colspan="2">Inscription</td>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td><a href="Conférenciers#Conférencier1">Conférencier 1</a><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </td>
+            <td><a href="Conférenciers#Conférencier2">Conférencier 2</a><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</td>
+        </tr>
+        <tr>
+            <td>12:30 PM</td>
+            <td colspan="2">Dîner</td>
+        </tr>
+        <tr class="bottom_of_table">
+            <td>2:00 PM</td>
+            <td><a href="Conférenciers#Conférencier3">Conférencier 3</a><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+            <td>Conférencier 1<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td class="table_title"><h2>Ateliers</h2></td>
+            <td colspan="2">25 mars 2023</td>
+        </tr>
+        <tr>
+            <td>8:30 AM</td>
+            <td colspan="2">Inscription</td>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td>Conférencier 1<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </td>
+            <td>Conférencier 2<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</td>
+        </tr>
+        <tr>
+            <td>12:30 PM</td>
+            <td colspan="2">Dîner</td>
+        </tr>
+        <tr class="bottom_of_table">
+            <td>2:00 PM</td>
+            <td>Conférencier 3<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+            <td>Conférencier 1<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</td>
+        </tr>
+    </table>
+    
+
+    <!-- footer section -->
+ 
     <footer>
-        <i class="fa-thin fa-circle-c"></i>
-        <p>Nouvelle conférence </p>
-        <nav>
-            <ul>
-                <li class="ancre_footer">Accueil</li>
-                <li class="ancre_footer">Conférenciers</li>
-                <li class="ancre_footer">Programme</li>
-                <li class="ancre_footer">Venue</li>
-                <li class="ancre_footer">Inscription</li>
-            </ul>
-        </nav>
-    </footer>
-
+        <p>&copy Nouvelle Conférence</p>
+        <ul>
+            <li class="ancre_footer"><a href="Accueil.html">Accueil</a></li>
+            <li class="ancre_footer"><a href="Conférenciers.html">Conférenciers</a></li>
+            <li class="ancre_footer"><a href="Programme.html">Programme</a></li>
+            <li class="ancre_footer"><a href="Venue.html">Venue</a></li>
+            <li class="ancre_footer"><a href="Inscription.html">Inscription</a></li>
+        </ul>
+</footer>
 </body>
-
-</html>
