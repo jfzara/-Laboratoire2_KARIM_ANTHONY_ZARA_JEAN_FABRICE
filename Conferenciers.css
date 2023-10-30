@@ -103,7 +103,44 @@ nav li {
 
 
 /*-----------------------------------------SECTION CENTRALE---------------------------------------------------*/
-
+.presentation{
+   
+    background: linear-gradient(
+        90deg, rgba(2,0,36,1) 0%,
+     rgba(111,255,173,1) 0%,
+      rgba(255,207,219,1) 100%,
+       rgba(0,212,255,1) 100%);
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       padding-bottom: 3rem;
+       text-align: center;
+       padding-inline: 6rem;
+       padding-top:2rem;
+       
+}
+.presentation p{
+    font-size: 1.5rem;
+}
+.conferenciers{
+    width: 100%;
+    padding-left: 3rem;
+    
+}
+.conferencier{
+padding-top: 4rem;
+display: flex;
+justify-content: space-between;
+}
+.chaque_conferencier{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;  
+}
+.photo_legende{
+   padding-right: 4rem; 
+   height: 30%;
+}
 img{
     width: 100px;
     height: 100px;
@@ -144,5 +181,6 @@ footer {
     background-color: rgb(46, 46, 80);
     padding-top: 60px;
     padding-bottom: 20px;
+    margin-top: 3rem;
 }
  
