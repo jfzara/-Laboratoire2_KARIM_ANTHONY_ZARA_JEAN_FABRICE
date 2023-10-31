@@ -1,3 +1,7 @@
+/* KARIM_ANTHONY/ZARA_JEAN_FABRICE */
+
+/*------------------------------------------GENERAL----------------------------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -7,50 +11,52 @@
     font-weight: 300;
 
 }
-body{
-    min-width:80vw;
-   
-}
-/*-------------------------------------------HEADER-----------------------------------------------------*/
- 
 
- 
+body {
+    min-width: 80vw;
+
+}
+
+/*-------------------------------------------HEADER-----------------------------------------------------*/
+
+
+
 header {
     background-color: rgb(46, 46, 80);
     padding-left: 1.5vw;
     padding-right: 1.3vw;
     display: flex;
     justify-content: space-between;
-   
-}
- 
 
-header a{ 
-text-decoration: none;
-color: white;
 }
 
- 
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
 nav {
     text-transform: uppercase;
-    
-}
- 
 
- 
+}
+
+
+
 nav ul {
     display: flex;
     width: auto;
     padding-top: 40px;
     margin-bottom: 47px;
 }
- 
+
 nav li {
     margin-inline: 5px;
     list-style: none;
     font-weight: bold;
-   
-   
+
+
 }
 
 
@@ -66,22 +72,22 @@ nav li {
     position: relative;
 }
 
-a:hover{
-color: black
- }
-
-.container_nav{
-    display: flex;
-    flex-direction: column;
-    
+a:hover {
+    color: black
 }
 
- .date {
+.container_nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.date {
     color: rgb(111, 111, 170);
     margin-top: 46px;
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
     padding-left: 5px;
- }
+}
 
 .container_creation {
     display: flex;
@@ -92,7 +98,7 @@ color: black
     line-height: 1.5;
     background-color: rgb(46, 46, 80);
 }
- 
+
 .creation {
     font-size: 2rem;
     font-weight: 100;
@@ -101,14 +107,14 @@ color: black
     color: rgb(111, 111, 170);
     font-weight: lighter;
 }
- 
+
 .creation_texte {
     text-align: center;
     font-size: 1.5rem;
     color: white;
 }
- 
-.container_nav li a{
+
+.container_nav li a {
     font-weight: 400;
     color: white;
     text-decoration: none;
@@ -118,17 +124,18 @@ color: black
 /* header 2 */
 
 .header2 {
-    background: linear-gradient( 90deg, rgba(2,0,36,1) 0%, rgb(149 236 186) 0%, rgb(255 251 209) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(149 236 186) 0%, rgb(255 251 209) 100%, rgba(0, 212, 255, 1) 100%);
     text-align: center;
     padding: 30px;
 }
 
 .header2 p {
-    margin-bottom: 0px; /* remove default margin */
+    margin-bottom: 0px;
+    /* remove default margin */
     line-height: 1.5;
 }
 
-/*********************************************** main ***********************************************/
+/*---------------------------------------------- MAIN ---------------------------------------------------*/
 
 table {
     width: 100%;
@@ -164,34 +171,36 @@ iframe {
     margin-bottom: 10px;
 }
 
-/*------------------------------------------- footer -----------------------------------------------------*/
-.container_pied{
+/*------------------------------------------- FOOTER -----------------------------------------------------*/
+.container_pied {
     min-width: 100vw;
- }
+}
+
 footer p {
     margin: 0;
     margin-right: 200px;
     color: white;
 }
- 
+
 footer ul {
     list-style-type: none;
     margin: 0;
     display: flex;
     flex-direction: row;
 }
- 
+
 footer a {
     color: white;
     font-weight: 400;
     margin-right: 20px;
     text-decoration: none;
 }
+
 footer a:hover {
     color: black;
     cursor: pointer;
 }
- 
+
 footer {
     min-width: 95%;
     display: flex;
@@ -204,4 +213,3 @@ footer {
     padding-top: 60px;
     padding-bottom: 20px;
 }
- 
