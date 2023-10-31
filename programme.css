@@ -1,63 +1,48 @@
-/* general */
-
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
     font-family: system-ui;
     font-weight: 300;
-    color: gray;
-    margin: 0px; /* remove default margin */
+
 }
-
-h1, h2, h3 {
-    font-weight: normal; /* higher specificity */
-    margin: 0; /* remove default margin */
+body{
+    min-width:80vw;
+   
 }
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-
 /*-------------------------------------------HEADER-----------------------------------------------------*/
  
 
  
 header {
     background-color: rgb(46, 46, 80);
-    color: white;
     padding-left: 1.5vw;
     padding-right: 1.3vw;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
    
 }
  
-.container_nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 8vh;
+
+header a{ 
+text-decoration: none;
+color: white;
 }
- 
- 
-.date_conference {
-    color: rgb(111, 111, 170); 
-    font-size: 1.3rem; 
-}
+
  
 nav {
     text-transform: uppercase;
     
 }
  
-.en_tete {
-    display: flex;
-}
+
  
 nav ul {
     display: flex;
     width: auto;
-    
+    padding-top: 40px;
+    margin-bottom: 47px;
 }
  
 nav li {
@@ -67,26 +52,37 @@ nav li {
    
    
 }
- .container_nouvelle_date{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
- }
-.titre_nouvelle, .titre_conference {
+
+
+.titre_conference {
     text-transform: uppercase;
     font-size: 3rem;
     margin: 0;
-   
-}
- .titre_conference {
-   
+    text-decoration: none;
+    color: white;
     padding-bottom: 0;
     position: relative;
     bottom: -8px;
     position: relative;
-
 }
- 
+
+a:hover{
+color: black
+ }
+
+.container_nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ .date {
+    color: rgb(111, 111, 170);
+    margin-top: 46px;
+    font-size: 1.3rem; 
+    padding-left: 5px;
+ }
+
 .container_creation {
     display: flex;
     flex-direction: column;
@@ -117,8 +113,6 @@ nav li {
     color: white;
     text-decoration: none;
 }
-
-
 
 
 /* changed the color of top right element to gray */
@@ -170,12 +164,17 @@ td:nth-child(1) {
 table a {
     color: gray;
 }
-
-/* footer */
- 
+td a:hover {
+color: blue;
+}
+/*------------------------------------------- footer -----------------------------------------------------*/
+.container_pied{
+    min-width: 100vw;
+ }
 footer p {
     margin: 0;
     margin-right: 200px;
+    color: white;
 }
  
 footer ul {
@@ -185,24 +184,27 @@ footer ul {
     flex-direction: row;
 }
  
-footer li {
+footer a {
     color: white;
     font-weight: 400;
     margin-right: 20px;
-    overflow: auto;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+    cursor: pointer;
 }
  
 footer {
+    min-width: 95%;
     display: flex;
     flex-direction: row;
-    justify-content: center; /* aligner selong x-axis */
-    align-items: center; /* aligner selon y-axis */
+    justify-content: center;
+    /* aligner selong x-axis */
+    align-items: center;
+    /* aligner selon y-axis */
     background-color: rgb(46, 46, 80);
     padding-top: 60px;
     padding-bottom: 20px;
-    overflow: auto; /* fix for items to stay in parent container */
 }
-
-footer a:hover {
-    color:rgb(237, 218, 68);
-}
+ 
