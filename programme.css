@@ -128,7 +128,7 @@ nav li {
 /* header 2 */
 
 .header2 {
-    background: linear-gradient( 90deg, rgb(138 241 182) 0%, rgb(246 204 214) 100%);
+    background: linear-gradient( 90deg, rgba(2,0,36,1) 0%, rgb(149 236 186) 0%, rgb(255 251 209) 100%, rgba(0,212,255,1) 100%);
     text-align: center;
     padding: 30px;
 }
